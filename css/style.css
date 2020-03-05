@@ -1,0 +1,236 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+.body-wrapper{
+  overflow-x: hidden;
+}
+/* navbar */
+nav{
+  box-shadow: 0px 5px 3px 0px #FAFAFA;
+}
+.active{
+  color: #7FCC7E !important;
+  border-bottom: 1px solid #7FCC7E;
+  
+}
+.navbar-btn{
+  padding: 0.5em 4em !important;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  border-color: #7FCC7E;
+}
+.navbar-btn:hover{
+  background-color: #7FCC7E;
+  border-color: #7FCC7E;
+}
+/* navbar end */
+
+/* main */
+/* bitcoin */
+.bitcoin{
+  margin-top: 5em;
+}
+.bitcoin img{
+  width: 600px;
+    position: absolute;
+    right: 0px;
+}
+.bitcoin .bitcoin-content{
+  padding-top: 5em;
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+  position: relative;
+}
+.bitcoin .bitcoin-content h1{
+  color: #7FCC7E;
+  font-weight: 700;
+  font-size: 2.1em;
+}
+.bitcoin .bitcoin-content p{
+  margin-bottom: 4em;
+}
+ .bitcoin-btn{
+  border-radius: 40px;
+  background-color: #7FCC7E;
+  border-color: #7FCC7E;
+  color:white;
+}
+ .bitcoin-btn:hover{
+  background-color: #FAFAFA;
+  border-color: #7FCC7E;
+  color: rgba(0, 0, 0, 0.5);
+}
+/* bitcoin-end */
+/* conveyer */
+.Conveyer img{
+  width: 1300px;
+  position: relative;
+  right:283px;
+}
+/* conveyer end */
+/* currency-buttons */
+.currency-bg{
+  background-color: #F3F3F3;
+  top: 0;
+    left: 0;
+}
+.currency-button{
+  width: 100%;
+    max-width: 677px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.currency-button a img{
+  width: 15px;
+  margin-right: 12px;
+}
+.currency-button a:nth-child(1){
+  background-color: #7FCC7E !important;
+  border-color: #7FCC7E !important;
+  padding: 1em 2em;
+}
+.currency-button a:nth-child(2){
+  background-color: #353EC9 !important;
+  border-color: #353EC9 !important;
+  padding: 1em 2em;
+}
+.currency-button a:nth-child(3){
+  background-color: #F95582 !important;
+  border-color: #F95582 !important;
+  padding: 1em 2em;
+}
+/* currency-buttons end */
+/* cash-back img */
+.highligth{
+  color: #7FCC7E;
+}
+.cash-back{
+  overflow: hidden;
+}
+.cash-back .cash-top-img{
+  width: 900px;
+    margin-left: -343px;
+    margin-top: -470px;
+    display: block;
+    position: absolute;
+}
+.cash-back .cash-bottom-img{
+  width: 600px;
+  position: absolute;
+  bottom: -386px;
+  right: 0;
+  margin-right: -251px;
+}
+.cash-back .cash-back-content{
+  position: relative;
+    
+}
+.cash-back-img{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cash-back-img img:nth-child(1){
+  width: 300px;
+    position: relative;
+    top: 0;
+    left: 47px;
+}
+.cash-back-img img:nth-child(2){
+  width: 300px;
+}
+.cash-back-img img:nth-child(3){
+  width: 300px;
+    position: relative;
+    top: 34px;
+    right: 79px;
+}
+.cash-back-content p { 
+  width: 100%;
+    max-width: 499px;
+    margin: 3em auto;
+    text-align: center;
+}
+.cash-back-content .cash-back-btn{
+  display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cash-back-btn a{
+  color: #181C29;
+}
+.cash-back-btn> a:first-child{
+  background-color: #7FCC7E;
+  border-color: #7FCC7E;
+  padding: 1em;
+  color: white;
+}
+.recent-exch .recent-content .link{
+  background-color: white;
+  box-shadow: -8px 6px 7px -5px lightgrey;
+  border-radius: 28px 5px 5px 28px;
+  
+}
+.recent-content .link a{
+  padding: 0.7em 1em;
+    border-radius: 22px;
+    background-color: #7FCC7E;
+    border-color: #7FCC7E;
+}
+/* footer */
+form{
+  background: url(../img/Image\ 13.png)no-repeat;
+  background-size: cover;
+}
+form input,
+form a{
+  border-radius: 20px !important;
+}
+.footer-content p{
+  width: 100%;
+    max-width: 531px;
+    line-height: 2;
+    margin: 0;
+}
+.footer-content a{
+  font-size: 12px;
+  color: white;
+}
+.footer-content .footer-content-itm a:nth-child(2){
+  width: 33.5px;
+  border-radius: 50%;
+  background-color: black;
+  border-color: black;
+  opacity: 0.6;
+}
+.footer-content .footer-content-itm a:nth-child(3){
+  width: 33.5px;
+  border-radius: 50%;
+  background-color: #319FD8;
+  border-color: #319FD8;
+  opacity: 0.6;
+}
+.footer-content .footer-content-itm a:nth-child(4){
+  width: 33.5px;
+  border-radius: 50%;
+  background-color: #0010F3;
+  border-color: #0010F3;
+  opacity: 0.6;
+}
+.footer-content .footer-content-itm a:nth-child(5){
+  width: 33.5px;
+  border-radius: 50%;
+  background-color: #F94019;
+  border-color: #F94019;
+  opacity: 0.6;
+}

@@ -1,0 +1,139 @@
+nav{
+    box-shadow: none;
+    padding-top: 6em !important;
+    padding-bottom: 2em !important;
+}
+.body-wrapper{
+    background: url(../img/Union\ 2.png)no-repeat;
+    background-size: 100%;
+    margin-top: -70px;
+}
+.bg-img{
+    width: 100%;
+    position: absolute;
+}
+.inventory{
+    padding: 3em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 0px #5E885E;
+    background-color: white;
+}
+.inventory-itm .input-group{
+    width: 30%;
+}
+.inventory-itm .input-group input{
+    background-color: #e9ecef;
+    border: none;
+    border-radius: 20px 0 0 20px;
+}
+.inventory-itm .input-group span{
+    border-radius: 0 20px 20px 0 !important;
+    border: none;
+}
+.inventory-itm .dropdown button{
+    border-radius: 20px;
+    background-color: #e9ecef;
+    border-color: #e9ecef;
+    color: black;
+}
+.inventory-itm .select-all-btn{
+    border-radius: 20px;
+    background-color: #e9ecef;
+    border-color: #e9ecef;
+    color: black;
+}
+.inventory-itm .item{
+    background-color: #FAFAFA;
+}
+.inventory-itm .item img{
+    width: 93px;
+    margin: -16px 0;
+}
+.inventory .inventory-itm:last-child{
+    height: 423px;
+    overflow: auto;
+}
+/* side-content */
+.side-content{ 
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 0px #5E885E;
+    background-color: white;
+}
+.side-content .pay-mehtode a {
+    background-color: #F98E30;
+    padding: 0.3em 1.3em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pay-mehtode a img{
+    width: 13px;
+}
+.highligth{
+    color: #619C62;
+}
+.side-content h1 .img{
+    width: 1.1em;
+    margin-left: -6px;
+}
+.side-content h1 .B-img{
+    width: 0.8em;
+    margin-right: 0.2em;
+
+}
+.side-content .progress-lvl a{
+    border-radius: 20px;
+    padding: 0em 0.3em;
+    box-shadow: 0px 2px 4px 0px lightgrey;
+}
+.progress-lvl  .progress-itm{
+    width: 64%;
+    height: 23px;
+    background-color: #7FCC7E;
+    border-radius: 20px;
+}
+.progress-lvl .progress-bar {
+    width: 72%;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 4px 0px lightgrey;
+}
+.side-content .side-btn{
+    width: 88%;
+    border-radius: 20px;
+    margin: 0 1em;
+    background-color: #DF58AD;
+    border-color: #DF58AD;
+    
+}
+/* skin-IRL */
+.skin-IRL img{
+    width: 200px;
+
+}
+.skin-IRL img:nth-child(2){
+    margin: 0 -75px -48px 0;
+}
+/* footer */
+.footer-content{
+    background-color: #F3F3F3;
+}
+.footer-content .footer-logo{
+    width: 180px;
+    padding-right: 1em;
+    border-right: 2px solid #707070;
+}
+.footer-content-itm p{
+    line-height: 1.5;
+}
+.footer-content a{
+    font-size: 12px;
+    color: white;
+    background-color: #7FCC7E !important;
+    border-color: #7FCC7E !important;
+    opacity: 1 !important;
+}
+
+
+
